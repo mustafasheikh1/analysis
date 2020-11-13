@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
-import App from './App';
+import Header from './';
 
-test('renders App', () => {
-  render(<App />);
+test('Render Header', () => {
+  render(<Header />);
   expect(true).toBeTruthy();
 });

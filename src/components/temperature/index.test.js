@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
-import App from './App';
+import Temperature from './';
 
 test('renders App', () => {
-  render(<App />);
+  render(<Temperature />);
   expect(true).toBeTruthy();
 });

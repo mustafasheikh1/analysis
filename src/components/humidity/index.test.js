@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
-import App from './App';
+import Humidily from './';
 
-test('renders App', () => {
-  render(<App />);
+test('Eenders Humidi', () => {
+  render(<Humidily />);
   expect(true).toBeTruthy();
 });
